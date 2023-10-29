@@ -2,21 +2,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
 @import url('https://fonts.googleapis.com/css2? family= Viaduto & display=swap');
 @import url('https://fonts.googleapis.com/css2? family= Martian+Mono:wght@500 & display=swap');
-body{
+
+body {
     margin: 0%;
     top: 0px;
     color: rgb(255, 255, 255);
-    background-color: rgb(0, 0, 0);
     font-weight: bold;
-    background-image: url(Midia/fundo-colorido.png) ;
+    background-image: url(Midia/background.png);
 }
-#Menu{
+
+#Menu {
     text-align: center;
-    font-family: 'Overpass', sans-serif;  
-    color: rgb(255, 255, 255);  
+    font-family: 'Overpass', sans-serif;
+    color: rgb(255, 255, 255);
     margin-left: 820px;
     font-size: 15px;
 }
+
 #Menu a {
     float: left;
     text-decoration: none;
@@ -24,18 +26,21 @@ body{
     display: block;
     font-size: 20px;
     padding: 5px 20px;
-    position:static;
+    position: static;
 }
-#Menu a:hover{
+
+#Menu a:hover {
     background-color: rgb(179, 179, 179);
     transition: 1.5s;
 }
-#tituloDosTopicos{
+
+#tituloDosTopicos {
     padding: 10px 10px;
     text-align: center;
     font-family: 'Croissant One', cursive;
 }
-button{
+
+button {
     display: inline-block;
     padding: 30px 60px;
     border: none;
@@ -46,142 +51,173 @@ button{
     margin-top: 100px;
     margin-bottom: 100px;
 }
-#Botao{
- margin-left: 730px;
- text-align: center;
+
+#Botao {
+    margin-left: 730px;
+    text-align: center;
 }
-#botao_front-end{
-    background-color: #FF0060;
+
+#botao_front-end {
+
     color: white;
     box-shadow: 0px 0px 80px rgb(0, 0, 0);
+    background:
+        linear-gradient(to right, #d40606, #ff9090);
 }
-#botao_front-end:hover{
-     background-color: #8f0037;
-    transition: 1.0s;
+
+#botao_front-end:hover {
+    background:
+        linear-gradient(to right, #ff9090, #d40606);
     color: rgb(255, 255, 255);
+    font-size: 20px;
+    transition: 1.5s;
 }
-#botao_back-end{
-    background-color: #0079FF;
+
+#botao_back-end {
+    background: linear-gradient(to right, #00a1ff, #004797);
     color: white;
     box-shadow: 0px 0px 100px rgb(0, 0, 0);
 }
-#botao_back-end:hover{
-    background-color: #004797;
-    transition: 1.0s;
+
+#botao_back-end:hover {
+    background: linear-gradient(to right, #004797, #00a1ff);
     color: rgb(255, 255, 255);
+    font-size: 20px;
+    transition: 1.5s;
 }
-#rodape{
+
+#rodape {
     text-align: center;
     background-color: rgb(95, 95, 95);
-    padding: 10px 10px ;
+    padding: 10px 10px;
     box-shadow: 0px 0px 200px rgb(0, 0, 0);
     font-family: 'Roboto Condensed', sans-serif;
     font-size: 15px;
 }
-#rodape a{
+
+#rodape a {
     text-decoration: none;
     color: white;
     display: inline;
 }
-#inicio-pagina{
+
+#inicio-pagina {
     text-align: center;
 }
-#links_cursos{
-text-decoration: none;
-color: #00eeff;
-font-size: 20px;
-font-family: 'Roboto Condensed', sans-serif;
+
+#links_cursos {
+    text-decoration: none;
+    color: #00eeff;
+    font-size: 20px;
+    font-family: 'Roboto Condensed', sans-serif;
 }
-#links_cursos:hover{
+
+#links_cursos:hover {
     color: #00eeff;
     transition: 1.0s;
     font-size: 25px;
 }
-#Otima-escolha-A{
-text-transform: uppercase;
-color:#FF0060;
-font-family: 'Martian Mono', monospace;
-font-size: 60px;
+
+#Otima-escolha-A {
+    text-transform: uppercase;
+    color: #FF0060;
+    font-family: 'Martian Mono', monospace;
+    font-size: 60px;
 }
-#Otima-escolha-B{
-text-transform: uppercase;
-color:#0077ff;
-font-family: 'Martian Mono', monospace;
-font-size: 60px;
+
+#Otima-escolha-B {
+    text-transform: uppercase;
+    color: #0077ff;
+    font-family: 'Martian Mono', monospace;
+    font-size: 60px;
 }
-#botao-voltar{
+
+#botao-voltar {
     font-family: 'Roboto Condensed', sans-serif;
 }
-#botao-voltar a{
+
+#botao-voltar a {
     text-decoration: none;
     color: #00eeff;
 }
-#conteudo{
+
+#conteudo {
     font-family: 'Croissant One', cursive;
     font-size: 15px;
 }
-#conteudo-back{
+
+#conteudo-back {
     font-family: 'Croissant One', cursive;
     font-size: 15px;
     margin-top: 10%;
 }
-#Cronograma{
+
+#Cronograma {
     font-family: 'Croissant One', cursive;
-    font-size: 15px;    
+    font-size: 15px;
     text-align: center;
     margin-top: 15%;
 }
-#Cronograma a{
+
+#Cronograma a {
     text-decoration: none;
     color: #00eeff;
     font-size: 40px;
 }
-#Anotações{
+
+#Anotações {
     font-family: 'Croissant One', cursive;
-    font-size: 15px;    
+    font-size: 15px;
     text-align: center;
     margin-top: 15%;
 }
-#Anotações a{
+
+#Anotações a {
     text-decoration: none;
     color: #00eeff;
     font-size: 40px;
 }
-#botao-linguagemJava{
+
+#botao-linguagemJava {
     font-family: 'Roboto Condensed', sans-serif;
     font-size: 20px;
     text-align: center;
     background-image: url(Midia/java-botao.png);
-   
+
 }
-#botao-linguagemPython{
+
+#botao-linguagemPython {
     font-family: 'Roboto Condensed', sans-serif;
     font-size: 20px;
     text-align: center;
     background-image: url(Midia/python-botao.png);
     color: #a8a8a8;
 }
-#botao-linguagemJava:hover{
+
+#botao-linguagemJava:hover {
     background-image: url(Midia/java-hover.png);
     transition: 1.0s;
     color: rgb(255, 255, 255);
 }
-#botao-linguagemPython:hover{
+
+#botao-linguagemPython:hover {
     background-image: url(Midia/python-hover.png);
     transition: 1.0s;
     color: rgb(255, 255, 255);
 }
-#link_Dio{
+
+#link_Dio {
     text-decoration: none;
     background-image: url(Midia/logo\ dio.me.png);
     font-size: 20px;
 }
-#link_Dio:hover{
+
+#link_Dio:hover {
     transition: 1.0s;
     font-size: 25px;
 }
-#link_Dio a{
+
+#link_Dio a {
     text-decoration: none;
     color: #ffffff;
 }
-
